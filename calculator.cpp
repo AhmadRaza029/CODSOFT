@@ -11,12 +11,12 @@ int main() {
 
     cout << "Enter the first number: ";
     cin >> num1;
-
-    cout << "Choose an operation (+, -, *, /): ";
-    cin >> operation;
     
     cout << "Enter the second number: ";
     cin >> num2;
+
+    cout << "Choose an operation (+, -, *, /): ";
+    cin >> operation;
     
     switch (operation) {
         case '+':
